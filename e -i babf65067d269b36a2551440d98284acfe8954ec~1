@@ -1,0 +1,53 @@
+[33mcommit babf65067d269b36a2551440d98284acfe8954ec[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/login-page-clean[m[33m, [m[1;32mfeature/login-page[m[33m)[m
+Author: Laura Rui <lauragarciarui0.1@gmail.com>
+Date:   Tue Apr 22 16:36:32 2025 +0100
+
+    Início do design da tela de login (sem credenciais)
+
+[33mcommit 990b27e22879f1325d27e3cd947fbfb1fa1565f8[m[33m ([m[1;32mmain[m[33m)[m
+Author: Laura Rui <lauragarciarui0.1@gmail.com>
+Date:   Mon Apr 21 21:11:35 2025 +0100
+
+    Correções no arquivo de teste
+
+[33mcommit 88398c9d91c82293b2890b046c40584593211e8d[m
+Author: Laura Rui <lauragarciarui0.1@gmail.com>
+Date:   Mon Apr 21 20:55:38 2025 +0100
+
+    Adicionando o arquivo de teste
+
+[33mcommit b13931e3de694a1d8657c8a4da532a83cc819147[m
+Author: Laura Rui <lauragarciarui0.1@gmail.com>
+Date:   Mon Apr 21 20:43:28 2025 +0100
+
+    actualizando a estrutura do código
+
+[33mcommit 8a8ee0f73742ef778c2e0a6688cbb80256725903[m
+Author: Laura Rui <lauragarciarui0.1@gmail.com>
+Date:   Mon Apr 21 18:05:44 2025 +0100
+
+    Configurando firebase back-end
+
+[33mcommit 714ffc3cd71a520441dc251138ba44aaa3f37b83[m
+Author: Laura Rui <lauragarciarui0.1@gmail.com>
+Date:   Mon Apr 21 15:05:03 2025 +0100
+
+    Adicionando as  chaves de configuração
+
+[33mcommit d26e088f1d7bc642d2202e750c65e7312b6a6648[m
+Author: Laura Rui <lauragarciarui0.1@gmail.com>
+Date:   Fri Apr 18 01:09:15 2025 +0100
+
+    Initial project setup: clonagem e dependências instaladas
+
+[33mcommit 51777706fb3c951dd25cb84fda9ba730fad6029a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Henriques Maculungungu <henriqueswaldemar1@gmail.com>
+Date:   Wed Apr 16 16:43:08 2025 +0100
+
+    feate: some components created
+
+[33mcommit 2b1685ae9524dd54df98e943ca3d2ae0b6be8388[m
+Author: Henriques Maculungungu <henriqueswaldemar1@gmail.com>
+Date:   Thu Apr 10 16:29:45 2025 +0100
+
+    Initial commit from Create Next App
