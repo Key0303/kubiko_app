@@ -1,15 +1,21 @@
+// src/app/teste/page.tsx
 "use client";
 import { auth } from '@/lib/firebase';
 import { signInWithEmailAndPassword } from 'firebase/auth';
+import { FirebaseError } from 'firebase/app'; // Importe o tipo de erro do Firebase
 
 export default function TestPage() {
   const testFirebase = async () => {
     try {
-      // Tenta fazer login com credenciais inválidas (isso vai falhar, mas prova que a conexão funciona)
       await signInWithEmailAndPassword(auth, "teste@exemplo.com", "senhaerrada");
-    } catch (error: any) {
-      console.log("✅ Firebase conectado! Erro esperado:", error.message);
-      alert("Firebase está funcionando! Erro esperado: " + error.message);
+    } catch (error) {
+      if (error instanceof FirebaseError) {
+        console.log("✅ Firebase conectado! Erro esperado:", error.message);
+        alert(`Firebase está funcionando! Erro esperado: ${error.code} - ${error.message}`);
+      } else {
+        console.log("Erro desconhecido:", error);
+        alert("Ocorreu um erro desconhecido");
+      }
     }
   };
 
