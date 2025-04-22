@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "bradlc.vscode-tailwindcss",
+      "heybourn.headwind",
+      "eamodio.gitlens",
+      "christian-kohler.path-intellisense",
+      "wix.vscode-import-cost",
+      "christian-kohler.npm-intellisense",
+      "Firebase.vscode-firestore",
+      "humao.rest-client",
+      "coenraads.bracket-pair-colorizer-2",
+      "dsznajder.es7-react-js-snippets"
+    ]
+  }
+  
